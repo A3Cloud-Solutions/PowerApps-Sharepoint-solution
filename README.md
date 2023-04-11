@@ -50,11 +50,11 @@ _PowerShell script to create site and 4 lists within your tenant_
 Reffer to App solution folder
 Clone the managed solution from the repository to your location/repo. Import the solution to your tenant. 
 
-
 ### Analytics report
 Reffer to PowerBI folder for more info
 
 ## Usage
+
 ### Authorization 
 users should have the rights to use PowerApps
 ### User operations
@@ -74,10 +74,9 @@ User Guide
 
 ## Roadmap 
 Here are some of the planned updates for Operate and Collect: 
-* Improved integration with other systems and applications.
-* More customizable user interface options.
+* Improved integration with third-party accounting software.
 * Additional analytics and reporting features.
-* Upgrading managing security and data privacy options. 
+* Upgrading data security management options. 
 
 ## Feedback
 We welcome feedback from users. If you have any suggestions or feature requests, any questions or issues with Operate and Collect, please contact our support team at https://a3cloud.org/support or via email contact@a3cloud.org
