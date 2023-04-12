@@ -35,33 +35,23 @@ _An appropriate administrative role is required for the initial deployment. This
 To fully install the Operate and Collect solution, you need to deploy and configure the application together with the database layer. Based on user experience feedback, we recommend creating a SharePoint Online site and SharePoint lists within it as the first step. Here is a PowerShell script prepared for this purpose.  
 You can also deploy and configure the SharePoint lists according to the data layer description placed in the SharePoint online folder of the repository. Alternatively, you can connect to another data source with the same model structure for your deployment. Once the data layer is settled, you can import the application as a managed PowerPlatform solution and easily configure connections with data. The analytical report also works with the data structure from the data source, so it can be deployed as the last step of the initial process. Note that the initial deployment could be carried out separately for each part of the solution.
 
-### Sharepoint list initial deployment 
-Reffer to Sharepoint folder for more info.
+### Sharepoint lists  
+Refer to Sharepoint folder for more info.
 _PowerShell script to create site and 4 lists within your tenant_ 
 
-
-### Initial deployment of Operate'n'Collect Managed solution  
-Reffer to App solution folder
-Clone the managed solution from the repository to your location/repo. Import the solution to your tenant. 
+### Operate'n'Collect application  
+Refer to the app solution folder for more info. 
+Clone the managed solution from the repository folder to your local location/repo. Import the solution into the environment within your tenant. Then, open the OnC application in Power Apps Studio to edit it. Configure the database connection in the Power Apps environment, and publish the application to your Power Apps environment. Finally, share the app with users.
 
 ### Analytics report
-Reffer to PowerBI folder for more info
+Reffer to PowerBI folder for more info.
 
 ## Usage
-
-### Authorization 
-users should have the rights to use PowerApps
-### User operations
-add new records 
-update 
-delete 
-
-### Administrating
-create new objects/locations
-provide users permissions to manage the objects
+_Users should have proper licensing and administrative role to use PowerApps application._ 
+The solution core provide users with functionality of adding new records, update, delete, use analytic report. Administrating functinons allows to manage objects/locations, provide users permissions to manage records for the objects.
 
 ## Limitations
-sharepoint images aren't displayed correctly from user prospective in 
+The solution based on PowerPlatform, SharepointOnline, PowerBI, so inherits their limitations.
 
 ## Documentation 
 User Guide 
