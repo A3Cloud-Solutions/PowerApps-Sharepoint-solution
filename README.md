@@ -32,14 +32,8 @@ Operate and Collect solution was built using the following technologies:
 
 _An appropriate administrative role is required for the initial deployment. This particular role should be defined within the organization's case, whether it is a Global Administrator, Application Administrator, or another role that allows for such deployment within the tenant._
 
-
-To make full install of Operate and Collect solution, you need to deploy and configure application together with database layer.
-Clone the repository to your local machine.
-Open the solution in Power Apps Studio.
-Publish the solution to your Power Apps environment.
-Configure the application settings and database connection in the Power Apps environment. 
-
-Initial deployment could be carried out separately for each part of the solution  
+To fully install the Operate and Collect solution, you need to deploy and configure the application together with the database layer. Based on user experience feedback, we recommend creating a SharePoint Online site and SharePoint lists within it as the first step. Here is a PowerShell script prepared for this purpose.  
+You can also deploy and configure the SharePoint lists according to the data layer description placed in the SharePoint online folder of the repository. Alternatively, you can connect to another data source with the same model structure for your deployment. Once the data layer is settled, you can import the application as a managed PowerPlatform solution and easily configure connections with data. The analytical report also works with the data structure from the data source, so it can be deployed as the last step of the initial process. Note that the initial deployment could be carried out separately for each part of the solution.
 
 ### Sharepoint list initial deployment 
 Reffer to Sharepoint folder for more info.
