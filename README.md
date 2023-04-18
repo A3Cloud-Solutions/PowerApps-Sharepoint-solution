@@ -2,17 +2,14 @@
 
 Operate and Collect is a comprehensive solution designed to streamline workflow and improve data accuracy, provides a secure and reliable way to manage business operational data.
 
-## Key Features 
-
 The solution comprises three parts:
 1. Operate'n'Collect, a **Canvas Power App** business application that helps users manage revenue, cash-flow, business growth, profitability, and control costs, leading to more informed and timely decision-making.
 2. **SharePoint Online** (site and several lists on the site) serves as a cloud-based database layer for operational data.
 3. **Power BI report** is an analytics tool that provides businesses with valuable insights into their daily operations.
 
-
 **The solution can be customized to meet the unique needs of each business**, feel free to contact us at contact@a3cloud.org
 
-Solution features.
+## Key Features 
 * The managed solution provides the Canvas PowerApp that enables users to manage up to nine operational indicators per row of objects.
 * Сapability to assign and manage access rights for various objects, brands or resources based on administrative user roles.
 * Uses SharePoint Online (4 lists at least) as a database layer.
