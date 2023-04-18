@@ -1,6 +1,8 @@
 # SharePoint Online 
 
-Site and lists for Operate'n'Collect Solution
+Site and lists for Operate'n'Collect Solution can be created and initially configured with "Create Initial Sharepoint Lists for OperatenCollect app v.1.0.2" Powershell from current folder.
+Run with appropriate administration rights:
+
 
 ## Site for Operate'n'Collect Solution
 
