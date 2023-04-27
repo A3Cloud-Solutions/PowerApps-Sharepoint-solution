@@ -4,6 +4,9 @@ Site and lists for Operate'n'Collect Solution can be created and initially confi
 Run with appropriate administration rights:
 ![Script result](https://github.com/A3Cloud-Solutions/OperateandCollect/blob/main/Sharepoint%20Online/script%20result%20screen.PNG)
 
+The script creates Initial Sharepoint site and 4 lists on it: 
+![Site and lists created](https://github.com/A3Cloud-Solutions/PowerApps-Sharepoint-solution/blob/main/Sharepoint%20Online/SharepointOnline%20Initial%20tables%20created%20on%20site.png)
+
 ## Site for Operate'n'Collect Solution
 
 SharePoint Online site is used for a variety of purposes, including: 
@@ -28,7 +31,10 @@ refers to the list of Objects or entities that are taken into account and manage
 | VisibleInputFields | Choice | (optionally) List of the InputFields configuration |
 
 and attachments are enabled.
- 
+
+![Site and lists created](https://github.com/A3Cloud-Solutions/PowerApps-Sharepoint-solution/blob/main/Sharepoint%20Online/Objects%20List.png)
+
+
 ### 'Common Data Base' list
 
 A 'Common Database' list is a general compilation of data related to an organization's daily operations through all of the Objects records. It serves as a centralized repository for daily records and helps ensure that all users in different roles within the company have access to the same information. The Common Database list may be stored in the cloud, and access to it is typically restricted to authorized personnel within the organization. Appropriate IT-security and data protection policies of the company shall be put in place to maintain the security and privacy of the data stored in the database.
